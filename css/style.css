@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #cccccc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center ;
+    align-items: center;    
+}
+.form-session{
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+.form-session input[type="text"],
+.form-session input[type="password"],
+.form-session input[type="submit"]{
+    bottom: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 2px solid #1f53c5 ;
+    border:1px solid #1f53c5
+}
+
+.logo {
+    width: 100%;
+}
+
+.menu-superior {
+    text-align: right;
+}
+
+.menu-superior li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.producto {
+    width: 100%;
+}
+
